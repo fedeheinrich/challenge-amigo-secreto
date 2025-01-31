@@ -34,3 +34,19 @@ function agregarAmigo(){
         document.getElementById("amigo").value = "";
     }
 }
+
+function actualizarListaAmigos(){
+    // Obtener la lista
+    let lista = document.getElementById("lista-amigos");
+    // Limpiar la lista existente
+    lista.innerHTML = "";
+    // Iterar sobre el arreglo de amigos
+    for(let i = 0; i < amigos.length; i++){
+        // Crear un nuevo elemento de lista
+        let item = document.createElement("li");
+        item.textContent = amigos[i];
+        // Agregar el elemento a la lista
+        lista.appendChild(item);
+    }
+
+}
