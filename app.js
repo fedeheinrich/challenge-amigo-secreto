@@ -48,5 +48,19 @@ function actualizarListaAmigos(){
         // Agregar el elemento a la lista
         lista.appendChild(item);
     }
+}
 
+function sortearAmigo(){
+    // Validar que haya amigos disponibles
+    if(amigos.length == 0){
+        alert("No hay amigos para sortear.");
+    }
+    else{
+        // Generar un índice aleatorio
+        let indice = Math.floor(Math.random() * amigos.length);
+        // Obtener el nombre sorteado
+        let amigoSorteado = amigos[indice];
+        // Mostrar el resultado
+        document.getElementById("resultado").innerHTML = amigoSorteado;
+    }
 }
