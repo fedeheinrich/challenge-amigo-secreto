@@ -21,13 +21,17 @@ Navegador Web Moderno (Chrome, Firefox, Edge, Brave, etc)
 
 ### Instalación 🔧
 
-Paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+Pasos para configurar el entorno de desarrollo:
 
-1. Clona el respositorio a tu maquina local:
+1. Clona el repositorio a tu máquina local:
+    ```bash
     git clone https://github.com/fedeheinrich/challenge-amigo-secreto
-2. Navega al archivo del repositorio:
+    ```
+2. Navega al directorio del repositorio:
+    ```bash
     cd challenge-amigo-secreto
-3. Abri el archivo [index.html](index.html)
+    ```
+3. Abre el archivo [index.html](index.html) en tu navegador web preferido.
 
 ### Despliegue 📦
 
@@ -52,12 +56,12 @@ Para todas las versiones disponibles, mira los [tags en este repositorio](https:
 
 ## Autor ✒️
 
-* **Federico Heinrich** - *Trabajo Inicial* - [fedeheinrich](https://github.com/fedeheinrich)
+* **Federico Heinrich** - [fedeheinrich](https://github.com/fedeheinrich)
 
 ## Expresiones de Gratitud 🎁
 
 * Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Invita una cerveza 🍺 o un café ☕
 * Da las gracias públicamente 🤓.
 * Dona con cripto a esta dirección: ``
 * etc.
