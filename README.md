@@ -43,8 +43,8 @@ Notas adicionales:
 
 ## Construido con 🛠️
 
-* [Visual Studio Code](http://www.dropwizard.io/1.0.2/docs/) - Editor de Codigo
-* [GIT Bash](https://maven.apache.org/) - Software de Control de Versiones
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de Codigo
+* [GIT Bash](https://git-scm.com/downloads) - Software de Control de Versiones
 
 ## Versionado 📌
 
